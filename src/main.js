@@ -1,5 +1,4 @@
-const accordionHeader = document.querySelectorAll(".accordion-header");
-// const accordionBody = document.querySelector(".accordion-body");
+const accordionHeader = document.querySelectorAll(".accordion-header"); 
 
 accordionHeader.forEach((item) => {
   item.addEventListener("click", function (e) {
